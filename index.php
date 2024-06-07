@@ -31,11 +31,11 @@
     <!-- form for user input of the min, max, and integer -->
     <form action="results.php" method="post" target="results">
       <label for="userMin">Enter a min:</label>
-      <input type="number" id="userMin" name="userMin" step="1" placeholder="Enter a Minimum"><br><br>
+      <input type="number" id="userMin" name="userMin" min="0" step="1" placeholder="Enter a Minimum"><br><br>
       <label for="userMax">Enter a max:</label>
-      <input type="number" id="userMax" name="userMax" step="1" placeholder="Enter a Maximum"><br><br>
+      <input type="number" id="userMax" name="userMax" min="0" step="1" placeholder="Enter a Maximum"><br><br>
       <label for="userInt">Enter a number:</label>
-      <input type="number" id="userInt" name="userInt" step="1" placeholder="Enter an Integer"><br><br>
+      <input type="number" id="userInt" name="userInt" min="0" step="1" placeholder="Enter an Integer"><br><br>
       <input type="submit">
     </form>
     <!-- display area -->
