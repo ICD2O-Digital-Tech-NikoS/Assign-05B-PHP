@@ -13,6 +13,12 @@
   // initializes sum value
   $sum = 0;
 
+  // Check if any input is empty
+  if (empty($userMax) || empty($userMin) || empty($userInt)) {
+    echo "Please fill all boxes";
+    exit; // Stop further processing
+  }
+
   // while counter is not greater than the userMax, update the sum to equal the user number plus the counter, the display message to equal the sum, and the counter to equal the counter plus one. repeats until the counter is greater than the userMax
   while ($counter <= $userMax) {
     $sum =  $userInt + $counter;
@@ -28,4 +34,5 @@
     // display the display message
     echo $displayMessage;
   }
+
 ?>
