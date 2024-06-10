@@ -14,13 +14,17 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon-16x16.png">
     <link rel="manifest" href="./fav_index/site.webmanifest">
+    
+    <!-- Google's MDL -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
   
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- mdl script file -->
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <!-- Title -->
     <title>Number Addition</title>
-    <!-- references javascript file -->
-    <script src="./js/script.js"></script>
   </head>
 
   <body>
@@ -42,6 +46,8 @@
     <iframe id="results" name="results">
       
     </iframe>
+    <!-- image -->
+    <center><img src="./images/blueMonkey.webp" alt="blue monkey" width="500" height="300"></center>
   </body>
 
 </html>

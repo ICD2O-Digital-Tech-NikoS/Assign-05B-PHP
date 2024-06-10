@@ -1,8 +1,8 @@
 <?php
 
-  // get user input for min
-  $userMax = $_POST["userMax"];
   // get user input for max
+  $userMax = $_POST["userMax"];
+  // get user input for min
   $userMin = $_POST["userMin"];
   // gets users number
   $userInt = $_POST["userInt"];
