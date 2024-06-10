@@ -46,6 +46,9 @@
     <iframe id="results" name="results">
       
     </iframe>
+    <!-- Default Slider -->
+    <input class="mdl-slider mdl-js-slider" type="range"
+      min="0" max="100" value="0" tabindex="0">
     <!-- image -->
     <center><img src="./images/blueMonkey.webp" alt="blue monkey" width="500" height="300"></center>
   </body>
